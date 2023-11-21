@@ -1,0 +1,18 @@
+---
+title: "Integers Printing"
+author: "Lucas Rodriguez"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# ST2195 Programming for Data Science Assignment 1
+
+This R Markdown file demonstrates how to source an external R script which prints integers from 1 to 10 as part of the ST2195 assignment. The process exemplifies how R scripts can be integrated into R Markdown for more complex workflows.
+
+## Sourcing R Script
+
+The following code block will invoke the `print_integers.R` script from the 'r' folder, which contains the code to print integers from 1 through 10:
+
+```{r}
+source("print_integers.R")
+```
